@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    position: absolute;
+    position: fixed;
+    width:88.5vw;
+    display: flex;
+    justify-content: end;
+    padding-top: 70px;
+    padding-right: 12vw;
+    visibility: hidden;
+    
+}
+
+
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 8px;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.color {
+    color: rgb(200, 150, 30);
+    font-family: 'Ubuntu', sans-serif;
+
+    font-size: 38px;
+}
+
+.btn1 {
+    background-color: rgb(200, 150, 30);
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border: 2px black;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    padding: 14vh 12vw;
+}
+
+.btn1:hover,
+.btn2:hover:hover {
+    color: rgb(200, 150, 30);
+    background-color: white;
+    border: 3px solid;
+    border-color: rgb(200, 150, 30);
+}
+
+.btn2 {
+    background-color: rgb(200, 150, 30);
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: 2px black;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    width: 74.9vw;
+    /* background-color: rgb(200, 150, 30);*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0vh 12vw;
+    padding-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding-top: 0;
+    background: rgb(200, 150, 30);
+}
+
+.navbar.sticky .logo:hover,
+.navbar.sticky li a:hover {
+    color: black;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.logo,
+li a {
+    color: white;
+}
+
+.logo:hover,
+li a:hover {
+    color: rgb(200, 150, 30);
+}
+
+.page {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.page li {
+    list-style: none;
+    padding: 0px 15px;
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_btn img {
+    width: 0px;
+    display: none;
+}
+
+.home {
+    background: url("img/home_bg.jpg") no-repeat center;
+    color: white;
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 250px;
+}
+
+.home .a {
+    font-size: 25px;
+}
+
+.home .b {
+    font-size: 80px;
+    margin-left: -5px;
+}
+
+.home .c {
+    margin-top: 4px;
+    font-size: 38px;
+    display: flex;
+}
+
+.home .d {
+    display: none;
+}
+
+.about_me {
+    background-color: white;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 0px 0px 50px 0px;
+    color: rgb(200, 150, 30);
+}
+
+.about_me .details {
+    display: flex;
+}
+
+.about_me .details .img img {
+    height: 350px;
+    border-radius: 10px;
+}
+
+.about_me .details .info {
+    padding: 0vh 0vw 0vh 7vw;
+}
+
+
+
+.my_education {
+    color: white;
+    background-color: black;
+
+}
+
+.box {
+    display: flex;
+}
+
+.degree {
+    text-align: center;
+    color: rgb(200, 150, 30);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.my_education .collage {
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+    padding: 30px 30px 30px 50px;
+    width: calc(100% - 30vw);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.my_education .jr_collage {
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+    margin: 0vh 3vw 0vh 3vw;
+    padding: 30px 30px 30px 50px;
+    width: calc(100% - 30vw);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.my_education .school {
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+    padding: 30px 30px 30px 50px;
+    width: calc(100% - 30vw);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.my_skills {
+    background-color: white;
+}
+
+.skills_info {
+    width: 38vw;
+
+}
+
+.skills {
+
+    margin-left: 3vw;
+    width: 35vw;
+    padding-left: 20px;
+
+
+}
+
+.my_skills .box .skills .bars .technology {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.my_skills .box .skills .bars .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.my_skills .box .skills .bars .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: rgb(200, 150, 30);
+}
+
+.my_skills .box .skills .bars .html::before {
+    width: 90%;
+}
+
+.my_skills .box .skills .bars .css::before {
+    width: 60%;
+}
+
+.my_skills .box .skills .bars .js::before {
+    width: 90%;
+}
+
+.my_skills .box .skills .bars .php::before {
+    width: 90%;
+}
+
+.my_skills .box .skills .bars .mysql::before {
+    width: 90%;
+}
+
+.contact_me {
+    color: white;
+    background-color: black;
+
+}
+
+.left {
+    width: 38vw;
+}
+
+.sm_logo1 {
+    width: 35px;
+    margin-right: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.sm_logo2 {
+    width: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.sm_logo3 {
+    width: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: baseline;
+
+}
+
+.my_name,
+.my_address,
+.my_email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.my_name {
+    margin-top: 20px;
+}
+
+.right {
+    margin-left: 3vw;
+}
+
+.message_me {
+    width: 33vw;
+    padding: 0vw 1vw;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one,
+.two,
+.three {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.one {
+    height: 40px;
+    width: 15vw;
+    border-radius: 8px;
+}
+
+.two {
+    height: 40px;
+    width: 32.25vw;
+    border-radius: 8px;
+}
+
+.three {
+    height: 40px;
+    width: 32.25vw;
+    border-radius: 8px;
+}
+
+footer {
+    width: 74.9vw;
+    height: 100px;
+    background-color: rgb(200, 150, 30);
+    padding: 0vh 12vw;
+    align-items: center;
+    padding-top: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+}
+
+footer p:hover {
+    color: black;
+    font-size: 22px;
+}
+
+footer .center {
+
+    text-align: center;
+}
+
+footer p:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+
+    nav {
+        width: 73.8vw;
+    }
+    footer{
+        width: 73.8vw;
+    }
+
+    .page {
+        width: 0;
+    }
+
+    nav ul li a {
+        display: none;
+    }
+
+    .menu{
+        visibility: visible;
+        transition: transform 0.3s ease-in;
+    }
+
+    .menu_btn img {
+        width: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_btn img:hover {
+        width: 35px;
+        border-radius: 4px;
+    } 
+
+    .menu_go{
+        transform: translate(0px, -600px);
+    }
+
+    .cross_btn{
+        background-color: rgb(45, 33, 33);
+        display: flex;
+        justify-content: end;
+        padding: 20px;
+    }
+    
+    .cross_btn img{
+        width: 30px;
+    }
+    
+    .menu ul li {
+        background-color: rgb(59, 45, 43);
+        width:30vw;
+        display: flex;
+        justify-content: center;
+        padding:20px 0;
+       
+    }
+    .menu ul li a {
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    
+    }
+
+    .about_me .details {
+        display: block;
+    }
+
+    .about_me .details .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about_me .details .info {
+        padding: 7vh 0vw 0vh 0vw;
+    }
+
+    .box {
+        display: block;
+    }
+
+
+    .my_education .collage {
+        margin: 0vh 8vw;
+    }
+
+    .my_education .jr_collage {
+        margin: 0vh 8vw;
+    }
+
+    .my_education .school {
+        margin: 0vh 8vw;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+    }
+
+    .my_skills .box .skills_info p {
+        width: 76vw;
+    }
+
+    .my_skills .box .skills {
+        margin-top: 40px;
+        margin-left: 0vw;
+        width: 76vw;
+        padding-left: 0px;
+    }
+
+    .box .left {
+        width: 76vw;
+    }
+
+    .box .right {
+        width: 76vw;
+        margin-left: 0;
+    }
+
+    .message_me {
+        width: 76vw;
+        margin-top: 30px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .first {
+        width: 53vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .one {
+        width: 22.5vw;
+    }
+
+    .two,
+    .three {
+        width: 50vw;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    .home .c {
+        display: none;
+    }
+
+    .home .d {
+        margin-top: 2px;
+        font-size: 38px;
+        display: flex;
+        visibility: unset;
+    }
+
+    .first {
+        width: 74vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .message_me {
+        padding: 0vw 0vw;
+    }
+
+    .one {
+        width: 32vw;
+    }
+
+    .two,
+    .three {
+        width: 70vw;
+    }
+
+
+
+}
+
+@media (max-width: 500px) {
+
+    section {
+        padding: 10vh 12vw;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        padding: 0px 0px 30px 0px;
+        color: rgb(200, 150, 30);
+    }
+
+    .page {
+        width: 0;
+    }
+
+    .home {
+        background: url("img/home_bg.jpg") no-repeat center;
+        color: white;
+        min-height: 200px;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 200px;
+    }
+
+    .home .a,
+    .b,
+    .c {
+        margin-bottom: 5px;
+    }
+
+    .home .a {
+        font-size: 20px;
+    }
+
+    .home .b {
+        font-size: 36px;
+        margin-left: -2px;
+        color: rgb(200, 150, 30);
+    }
+
+    .home .d {
+        margin-top: 5px;
+        font-size: 23px;
+        display: flex;
+        visibility: unset;
+    }
+
+    .btn1 {
+        background-color: rgb(200, 150, 30);
+        width: 120px;
+        height: 40px;
+        border: 2px black;
+        border-radius: 8px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn2 {
+        margin-top: 10px;
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .about_me .details .img img {
+        height: 76vw;
+        width: 76vw;
+    }
+
+    .head {
+        font-size: 25px;
+    }
+
+    .my_education .collage,
+    .my_education .jr_collage,
+    .my_education .school {
+        margin: 0vh 5vw;
+    }
+
+    .message_me {
+        padding: 0vw 0vw;
+    }
+
+    .message_me .three {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 7vh 12vw;
+    }
+
+    .home {
+        padding-top: 150px;
+    }
+
+    .home .d {
+        font-size: 21.5px;
+    }
+
+    .my_education .collage,
+    .my_education .jr_collage,
+    .my_education .school {
+        margin: 0vh 2vw;
+    }
+}
