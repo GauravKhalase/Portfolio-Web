@@ -80,7 +80,7 @@ section {
 }
 
 nav {
-    width: 74.9vw;
+    width: 76vw;
     /* background-color: rgb(200, 150, 30);*/
     display: flex;
     align-items: center;
@@ -448,13 +448,6 @@ footer p:hover {
 /* Responsive */
 
 @media (max-width: 1200px) {
-
-    nav {
-        width: 73.8vw;
-    }
-    footer{
-        width: 73.8vw;
-    }
 
     .page {
         width: 0;
