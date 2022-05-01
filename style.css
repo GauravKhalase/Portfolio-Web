@@ -490,7 +490,7 @@ footer p:hover {
     
     .menu ul li {
         background-color: rgb(59, 45, 43);
-        width:30vw;
+        width:250px;
         display: flex;
         justify-content: center;
         padding:20px 0;
@@ -625,7 +625,7 @@ footer p:hover {
 @media (max-width: 500px) {
 
     section {
-        padding: 10vh 12vw;
+        padding: 5vh 12vw;
     }
 
     h1 {
@@ -693,7 +693,7 @@ footer p:hover {
     }
 
     .btn2 {
-        margin-top: 10px;
+        margin-top: 20px;
         width: 140px;
         height: 40px;
         font-size: 18px;
